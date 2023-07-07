@@ -67,6 +67,10 @@ To test if the plugin has been correctly install, do:
 export GST_PLUGIN_PATH=/usr/local/lib/gstreamer-1.0/
 gst-inspect-1.0 gray2bayer
 ```
+To check that bayer2rgb is installed:
+```
+gst-inspect-1.0 bayer2rgb
+```
 
 If the plugin failed to install the following message will be displayed: "No such element or plugin 'gray2bayer'"
 
